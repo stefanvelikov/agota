@@ -24,7 +24,7 @@ jobs:
         uses: loomchild/webflow-get@v1.2
 
       - name: Commit and Push
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v8
         with:
           author_name: Webflow Git
           author_email: webflowgit@local
