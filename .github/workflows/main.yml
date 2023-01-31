@@ -18,10 +18,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Process Webflow Site
-        uses: loomchild/webflow-get@v1
+        uses: loomchild/webflow-get@v1.2
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v7
