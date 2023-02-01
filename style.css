@@ -3527,6 +3527,10 @@ figcaption {
 .nav_logo {
   width: 10rem;
 }
+.header38_link {
+  color: #131313;
+  text-decoration: underline;
+}
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 2rem;
